@@ -3,6 +3,7 @@
 from user_info import get_user_info
 import time
 import json
+import random
 
 def get_media_id_user_feed (self):
     if (self.login_status):

@@ -22,7 +22,7 @@ def unfollow_protocol(self):
             self.current_id=self.media_on_feed[chooser]["owner"]["id"]
             if (self.bot_mode == 2):
                 new_auto_mod_unfollow2(self)
-                time.sleep(30)
+                time.sleep(20)
                 return
             user_feed_protocol(self)
             self.like_counter=0
@@ -36,4 +36,4 @@ def unfollow_protocol(self):
         else :
             follow_protocol(self)
             self.is_follower_number = 0
-            time.sleep(13+5)
+            time.sleep(13)

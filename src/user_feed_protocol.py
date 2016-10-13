@@ -25,4 +25,4 @@ def user_feed_protocol(self):
             return 
         new_auto_mod_like2(self)
         counterz += 1
-        time.sleep(3*15)
+        time.sleep(3*5)

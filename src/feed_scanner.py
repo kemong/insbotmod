@@ -56,5 +56,5 @@ def feed_scanner(self):
             print('Trying to unfollow : ' + self.current_user)
             new_auto_mod_unfollow2(self)
             del self.ex_user_list[chooser]
-        time.sleep(random.randint(15,22))
+        time.sleep(random.randint(5,10))
  

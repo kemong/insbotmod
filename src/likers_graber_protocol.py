@@ -23,5 +23,5 @@ def likers_graber_protocol(self):
             new_auto_mod_unfollow2(self)
             return 0
         likers_protocol(self)
-        time.sleep(random.randint(13,35))
+        time.sleep(random.randint(1,10))
         counterx += 1

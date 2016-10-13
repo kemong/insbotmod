@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from instabot import InstaBot
-from check_status import check_status
-from feed_scanner import feed_scanner
-from unfollow_protocol import unfollow_protocol
-from follow_protocol import follow_protocol
+from src.instabot import InstaBot
+from src.check_status import check_status
+from src.feed_scanner import feed_scanner
+from src.unfollow_protocol import unfollow_protocol
+from src.follow_protocol import follow_protocol
 import time
 
-bot = InstaBot(login="username", password="password",
+bot = InstaBot(login="username", password="passwud",
                like_per_day=1000,
                comments_per_day=0,
                tag_list=['follow4follow', 'f4f', 'cute'],
@@ -45,7 +45,7 @@ while True:
     # DON'T USE MODE 5 FOR A LONG PERIOD. YOU RISK YOUR ACCOUNT FROM GETTING BANNED
     ## USE MODE 5 IN BURST MODE, USE IT TO UNFOLLOW PEOPLE AS MANY AS YOU WANT IN SHORT TIME PERIOD
  
-    mode = 5
+    mode = 1
     
     print("You choose mode : %i" %(mode))
     print("CTRL + C to cancel this operation or wait 30 seconds to start")
