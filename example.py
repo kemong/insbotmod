@@ -73,18 +73,21 @@ while True:
         bot.new_auto_mod()
 
     elif mode == 3 :
-        unfollow_protocol(bot)
-        time.sleep(10*60)
+        while True:
+            unfollow_protocol(bot)
+            time.sleep(10*60)
 
     elif mode == 4 :
-        feed_scanner(bot)
-        time.sleep(60)
-        follow_protocol(bot)
-        time.sleep(10*60)
+        while True:
+            feed_scanner(bot)
+            time.sleep(60)
+            follow_protocol(bot)
+            time.sleep(10*60)
 
     elif mode == 5 :
-        bot.bot_mode=2
-        unfollow_protocol(bot)
+        while True:
+            bot.bot_mode=2
+            unfollow_protocol(bot)
 
     else :
         print ("You give me wrong mode mothafucka!!!")
