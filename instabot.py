@@ -554,14 +554,18 @@ class InstaBot:
         if time.time() > self.next_iteration["Unfollow"] and \
                         self.unfollow_per_day != 0 and len(self.bot_follow_list) > 0:     
             if (self.bot_mode == 0) :
+
                 for f in self.bot_follow_list:
                     if time.time() > (f[1] + self.follow_time):
-                        log_string = "Trying to unfollow #%i: "
+
+                        log_string = "Trying to unfollow #%i: %s" % (self.unfollow_counter, f[0])
                         self.write_log(log_string)
-                        self.auto_unfollow()
-                        self.bot_follow_list.remove(f)
-                        self.next_iteration["Unfollow"] = time.time() + \
+
+                        if self.unfollow(f[0]) != False:
+                            self.bot_follow_list.remove(f)
+                            self.next_iteration["Unfollow"] = time.time() + \
                                                           self.add_time(self.unfollow_delay)
+
             if (self.bot_mode == 1) :
                 unfollow_protocol(self)
 
