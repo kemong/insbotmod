@@ -1,0 +1,289 @@
+nohup: ignoring input
+Instabot v1.0.1 started at 03.04.2017 15:18:
+
+Trying to login as aprilgescraft...
+
+aprilgescraft login success!
+Completed populating user blacklist with IDs
+# MODE 0 = ORIGINAL MODE BY LEVPASHA
+## MODE 1 = MODIFIED MODE BY KEMONG
+### MODE 2 = ORIGINAL MODE + UNFOLLOW WHO DON'T FOLLOW BACK
+#### MODE 3 = MODIFIED MODE : UNFOLLOW PEOPLE WHO DON'T FOLLOW BACK BASED ON RECENT FEED ONLY
+##### MODE 4 = MODIFIED MODE : FOLLOW PEOPLE BASED ON RECENT FEED ONLY
+###### MODE 5 = MODIFIED MODE : JUST UNFOLLOW EVERYBODY, EITHER YOUR FOLLOWER OR NOT
+You choose mode : 0
+CTRL + C to cancel this operation or wait 3 seconds to start
+reading old following list....
+trying to read old following list...please wait dammit !!
+reading file finished !!
+Get media id by tag: medan
+Trying to follow: 3117494338
+Followed: 3117494338 #1.
+Trying to follow: 3117494338
+Followed: 3117494338 #2.
+Trying to follow: 3117494338
+Followed: 3117494338 #3.
+Trying to follow: 3117494338
+Followed: 3117494338 #4.
+Trying to follow: 3117494338
+Followed: 3117494338 #5.
+Trying to follow: 3117494338
+Followed: 3117494338 #6.
+Trying to follow: 3117494338
+Followed: 3117494338 #7.
+Trying to follow: 3117494338
+Followed: 3117494338 #8.
+Trying to follow: 3117494338
+Followed: 3117494338 #9.
+Trying to follow: 3117494338
+Followed: 3117494338 #10.
+Trying to follow: 3117494338
+Followed: 3117494338 #11.
+Trying to follow: 3117494338
+Followed: 3117494338 #12.
+Trying to follow: 3117494338
+Followed: 3117494338 #13.
+Trying to follow: 3117494338
+Followed: 3117494338 #14.
+Trying to follow: 3117494338
+Followed: 3117494338 #15.
+Trying to follow: 3117494338
+Followed: 3117494338 #16.
+Trying to follow: 3117494338
+Followed: 3117494338 #17.
+Trying to follow: 3117494338
+Followed: 3117494338 #18.
+Trying to follow: 3117494338
+Followed: 3117494338 #19.
+Trying to follow: 3117494338
+Followed: 3117494338 #20.
+Trying to follow: 3117494338
+Followed: 3117494338 #21.
+Trying to follow: 3117494338
+Followed: 3117494338 #22.
+Trying to follow: 3117494338
+Followed: 3117494338 #23.
+Trying to follow: 3117494338
+Followed: 3117494338 #24.
+Trying to follow: 3117494338
+Followed: 3117494338 #25.
+Trying to follow: 3117494338
+Followed: 3117494338 #26.
+Trying to follow: 3117494338
+Followed: 3117494338 #27.
+Trying to follow: 3117494338
+Followed: 3117494338 #28.
+Trying to follow: 3117494338
+Followed: 3117494338 #29.
+Trying to follow: 3117494338
+Followed: 3117494338 #30.
+Trying to follow: 3117494338
+Followed: 3117494338 #31.
+Trying to follow: 3117494338
+Followed: 3117494338 #32.
+Trying to follow: 3117494338
+Followed: 3117494338 #33.
+Trying to follow: 3117494338
+Followed: 3117494338 #34.
+Trying to follow: 3117494338
+Followed: 3117494338 #35.
+Trying to follow: 3117494338
+Followed: 3117494338 #36.
+Trying to follow: 3117494338
+Followed: 3117494338 #37.
+Trying to follow: 3117494338
+Followed: 3117494338 #38.
+Trying to follow: 3117494338
+Followed: 3117494338 #39.
+Trying to follow: 3117494338
+Followed: 3117494338 #40.
+Trying to follow: 3117494338
+Followed: 3117494338 #41.
+Trying to follow: 3117494338
+Followed: 3117494338 #42.
+Trying to follow: 3117494338
+Followed: 3117494338 #43.
+Trying to follow: 3117494338
+Followed: 3117494338 #44.
+Trying to follow: 3117494338
+Followed: 3117494338 #45.
+Trying to follow: 3117494338
+Followed: 3117494338 #46.
+Trying to follow: 3117494338
+Followed: 3117494338 #47.
+Trying to follow: 3117494338
+Followed: 3117494338 #48.
+Trying to follow: 3117494338
+Followed: 3117494338 #49.
+Trying to follow: 3117494338
+Followed: 3117494338 #50.
+Trying to follow: 3117494338
+Followed: 3117494338 #51.
+Trying to follow: 3117494338
+Followed: 3117494338 #52.
+Trying to follow: 3117494338
+Followed: 3117494338 #53.
+Trying to follow: 3117494338
+Followed: 3117494338 #54.
+Trying to follow: 3117494338
+Followed: 3117494338 #55.
+Trying to follow: 3117494338
+Followed: 3117494338 #56.
+Trying to follow: 3117494338
+Followed: 3117494338 #57.
+Trying to follow: 3117494338
+Followed: 3117494338 #58.
+Trying to follow: 3117494338
+Followed: 3117494338 #59.
+Trying to follow: 3117494338
+Followed: 3117494338 #60.
+Trying to follow: 3117494338
+Followed: 3117494338 #61.
+Trying to follow: 3117494338
+Followed: 3117494338 #62.
+Trying to follow: 3117494338
+Followed: 3117494338 #63.
+Trying to follow: 3117494338
+Followed: 3117494338 #64.
+Trying to follow: 3117494338
+Followed: 3117494338 #65.
+Trying to follow: 3117494338
+Followed: 3117494338 #66.
+Trying to follow: 3117494338
+Followed: 3117494338 #67.
+Trying to follow: 3117494338
+Followed: 3117494338 #68.
+Trying to follow: 3117494338
+Followed: 3117494338 #69.
+Trying to follow: 3117494338
+Followed: 3117494338 #70.
+Trying to follow: 3117494338
+Followed: 3117494338 #71.
+Trying to follow: 3117494338
+Followed: 3117494338 #72.
+Trying to follow: 3117494338
+Followed: 3117494338 #73.
+Trying to follow: 3117494338
+Followed: 3117494338 #74.
+Trying to follow: 3117494338
+Followed: 3117494338 #75.
+Trying to follow: 3117494338
+Followed: 3117494338 #76.
+Trying to follow: 3117494338
+Followed: 3117494338 #77.
+Trying to follow: 3117494338
+Followed: 3117494338 #78.
+Trying to follow: 3117494338
+Followed: 3117494338 #79.
+Trying to follow: 3117494338
+Followed: 3117494338 #80.
+Trying to follow: 3117494338
+Followed: 3117494338 #81.
+Trying to follow: 3117494338
+Followed: 3117494338 #82.
+Trying to follow: 3117494338
+Followed: 3117494338 #83.
+Trying to follow: 3117494338
+Followed: 3117494338 #84.
+Trying to follow: 3117494338
+Followed: 3117494338 #85.
+Trying to follow: 3117494338
+Followed: 3117494338 #86.
+Trying to follow: 3117494338
+Followed: 3117494338 #87.
+Trying to follow: 3117494338
+Followed: 3117494338 #88.
+Trying to follow: 3117494338
+Followed: 3117494338 #89.
+Trying to follow: 3117494338
+Followed: 3117494338 #90.
+Trying to follow: 3117494338
+Followed: 3117494338 #91.
+Trying to follow: 3117494338
+Followed: 3117494338 #92.
+Trying to follow: 3117494338
+Followed: 3117494338 #93.
+Trying to follow: 3117494338
+Followed: 3117494338 #94.
+Trying to follow: 3117494338
+Followed: 3117494338 #95.
+Trying to follow: 3117494338
+Followed: 3117494338 #96.
+Trying to follow: 3117494338
+Followed: 3117494338 #97.
+Trying to follow: 3117494338
+Followed: 3117494338 #98.
+Trying to follow: 3117494338
+Followed: 3117494338 #99.
+Trying to follow: 3117494338
+Followed: 3117494338 #100.
+Trying to follow: 3117494338
+Followed: 3117494338 #101.
+Trying to follow: 3117494338
+Followed: 3117494338 #102.
+Trying to follow: 3117494338
+Followed: 3117494338 #103.
+Trying to follow: 3117494338
+Followed: 3117494338 #104.
+Trying to follow: 3117494338
+Followed: 3117494338 #105.
+Trying to follow: 3117494338
+Followed: 3117494338 #106.
+Trying to follow: 3117494338
+Followed: 3117494338 #107.
+Trying to follow: 3117494338
+Followed: 3117494338 #108.
+Trying to follow: 3117494338
+Followed: 3117494338 #109.
+Trying to follow: 3117494338
+Followed: 3117494338 #110.
+Trying to follow: 3117494338
+Followed: 3117494338 #111.
+Trying to follow: 3117494338
+Followed: 3117494338 #112.
+Trying to follow: 3117494338
+Followed: 3117494338 #113.
+Trying to follow: 3117494338
+Followed: 3117494338 #114.
+Trying to follow: 3117494338
+Followed: 3117494338 #115.
+Trying to follow: 3117494338
+Followed: 3117494338 #116.
+Trying to follow: 3117494338
+Followed: 3117494338 #117.
+Trying to follow: 3117494338
+Followed: 3117494338 #118.
+Trying to follow: 3117494338
+Followed: 3117494338 #119.
+Trying to follow: 3117494338
+Followed: 3117494338 #120.
+Trying to follow: 3117494338
+Followed: 3117494338 #121.
+Trying to follow: 3117494338
+Followed: 3117494338 #122.
+Trying to follow: 3117494338
+Followed: 3117494338 #123.
+Trying to follow: 3117494338
+Followed: 3117494338 #124.
+Trying to follow: 3117494338
+Followed: 3117494338 #125.
+Trying to follow: 3117494338
+Followed: 3117494338 #126.
+Trying to follow: 3117494338
+Followed: 3117494338 #127.
+Trying to follow: 3117494338
+Followed: 3117494338 #128.
+Trying to follow: 3117494338
+Followed: 3117494338 #129.
+Trying to follow: 3117494338
+Followed: 3117494338 #130.
+Trying to follow: 3117494338
+Followed: 3117494338 #131.
+Trying to follow: 3117494338
+Followed: 3117494338 #132.
+Trying to follow: 3117494338
+Followed: 3117494338 #133.
+Trying to follow: 3117494338
+Followed: 3117494338 #134.
+Trying to follow: 3117494338
+Follo

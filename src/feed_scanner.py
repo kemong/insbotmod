@@ -10,17 +10,17 @@ import time
 def feed_scanner(self):
     #This is to limit how many people do you want to put into list before
     ##The bot start to check their profile one by one and start following them
-    limit = random.randint(51,90)
+    limit = random.randint(50,120)
     while len(self.user_info_list)<limit:
         #First the bot try to collect media id on your recent feed
         get_media_id_recent_feed(self)
         #If your account is old enough, there will be 24 photos on your recent feed
-        if len(self.media_on_feed) > 23:
+        if len(self.media_on_feed) > 12:
         #Select the media on your recent feed randomly
             chooser = random.randint(0,len(self.media_on_feed)-1)
             #The bot will save the owner of the media name and use it to try checking his/her profile
-            self.current_user=self.media_on_feed[chooser]["owner"]["username"]
-            self.current_id=self.media_on_feed[chooser]["owner"]["id"]
+            self.current_user=self.media_on_feed[chooser]['node']["owner"]["username"]
+            self.current_id=self.media_on_feed[chooser]['node']["owner"]["id"]
 
         #If your account is new, and you don't following anyone, your recent feed will be empty   
         else:
@@ -28,9 +28,9 @@ def feed_scanner(self):
             self.is_by_tag = True
             get_media_id_user_feed(self)
             max = 0
-            while len(self.media_on_feed) > 5 and max < 5:
+            while len(self.media_on_feed) > 12 and max < 12:
                 chooser = random.randint(0,len(self.media_on_feed)-1)
-                self.current_id=self.media_on_feed[chooser]["owner"]["id"]
+                self.current_id=self.media_on_feed[chooser]['node']["owner"]["id"]
                 self.follow(self.current_id)
                 del self.media_on_feed[chooser]
                 max += 1

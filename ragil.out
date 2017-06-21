@@ -1,0 +1,797 @@
+nohup: ignoring input
+Instabot v1.0.1 started at 03.04.2017 15:18:
+
+Trying to login as ragil.creative...
+
+ragil.creative login success!
+Completed populating user blacklist with IDs
+# MODE 0 = ORIGINAL MODE BY LEVPASHA
+## MODE 1 = MODIFIED MODE BY KEMONG
+### MODE 2 = ORIGINAL MODE + UNFOLLOW WHO DON'T FOLLOW BACK
+#### MODE 3 = MODIFIED MODE : UNFOLLOW PEOPLE WHO DON'T FOLLOW BACK BASED ON RECENT FEED ONLY
+##### MODE 4 = MODIFIED MODE : FOLLOW PEOPLE BASED ON RECENT FEED ONLY
+###### MODE 5 = MODIFIED MODE : JUST UNFOLLOW EVERYBODY, EITHER YOUR FOLLOWER OR NOT
+You choose mode : 3
+CTRL + C to cancel this operation or wait 3 seconds to start
+reading old following list....
+trying to read old following list...please wait dammit !!
+reading file finished !!
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 15:18
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 15:18
+Checking user info..
+Follower : 145
+Following : 176
+Media : 101
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: fitrinur1207 <======
+Get media by user success!
+Current Index = 6 of 12 medias
+Trying to like media: 1473926567939252714
+Liked: 1473926567939252714. Likes: #23.
+Current Index = 3 of 11 medias
+Trying to like media: 1484432879978381078
+Liked: 1484432879978381078. Likes: #10.
+Trying to unfollow: fitrinur1207
+Unfollow: fitrinur1207 #1.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 15:21
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 15:21
+Checking user info..
+Follower : 350
+Following : 284
+Media : 64
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: ryan_impeesa <======
+Get media by user success!
+Current Index = 0 of 12 medias
+Trying to like media: 1484832873151724637
+Liked: 1484832873151724637. Likes: #13.
+Current Index = 0 of 11 medias
+Trying to like media: 1484807836923177601
+Liked: 1484807836923177601. Likes: #18.
+Current Index = 9 of 10 medias
+Trying to like media: 1416855634788111815
+Liked: 1416855634788111815. Likes: #42.
+Current Index = 8 of 9 medias
+Trying to like media: 1416856457333164392
+Liked: 1416856457333164392. Likes: #25.
+Trying to unfollow: ryan_impeesa
+Unfollow: ryan_impeesa #2.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 15:26
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 15:26
+Checking user info..
+Follower : 336
+Following : 211
+Media : 180
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: fery_ams <======
+Get media by user success!
+Current Index = 9 of 12 medias
+Trying to like media: 1476753749942185163
+Liked: 1476753749942185163. Likes: #12.
+Current Index = 9 of 11 medias
+Trying to like media: 1475827683949859335
+Liked: 1475827683949859335. Likes: #16.
+Current Index = 5 of 10 medias
+Trying to like media: 1478286724525633942
+Liked: 1478286724525633942. Likes: #5.
+Trying to unfollow: fery_ams
+Unfollow: fery_ams #3.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 15:29
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 15:29
+Checking user info..
+Follower : 535
+Following : 431
+Media : 420
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: austin_sandwich <======
+Get media by user success!
+Current Index = 4 of 12 medias
+Trying to like media: 1482877513389898298
+Liked: 1482877513389898298. Likes: #7.
+Current Index = 3 of 11 medias
+Trying to like media: 1482877843372715560
+Liked: 1482877843372715560. Likes: #23.
+Current Index = 4 of 10 medias
+Trying to like media: 1482252350550007245
+Liked: 1482252350550007245. Likes: #24.
+Trying to unfollow: austin_sandwich
+Unfollow: austin_sandwich #4.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 15:33
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 15:33
+Checking user info..
+Follower : 640
+Following : 99
+Media : 598
+   >>>This is probably Selebgram account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: k129n107 <======
+XXXXXXX Except on get_media! XXXXXXX
+ragil.creative : Get user info 
+03.04.2017 15:34
+Checking user info..
+Follower : 640
+Following : 99
+Media : 598
+   >>>This is probably Selebgram account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: k129n107 <======
+XXXXXXX Except on get_media! XXXXXXX
+ragil.creative : Get user info 
+03.04.2017 15:35
+Checking user info..
+Follower : 640
+Following : 99
+Media : 598
+   >>>This is probably Selebgram account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: k129n107 <======
+XXXXXXX Except on get_media! XXXXXXX
+Trying to unfollow: k129n107
+Unfollow: k129n107 #5.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 15:37
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 15:37
+Checking user info..
+Follower : 287
+Following : 323
+Media : 94
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: psycho__patty <======
+Get media by user success!
+Current Index = 8 of 12 medias
+Trying to like media: 1458903157072819057
+Liked: 1458903157072819057. Likes: #69.
+Current Index = 7 of 11 medias
+Trying to like media: 1462426621155107285
+Liked: 1462426621155107285. Likes: #91.
+Current Index = 5 of 10 medias
+Trying to like media: 1468321952480728440
+Liked: 1468321952480728440. Likes: #114.
+Current Index = 5 of 9 medias
+Trying to like media: 1467517473514625443
+Liked: 1467517473514625443. Likes: #133.
+Trying to unfollow: psycho__patty
+Unfollow: psycho__patty #6.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 15:41
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 15:41
+Checking user info..
+Follower : 975
+Following : 420
+Media : 196
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: wahyudiyoung <======
+Get media by user success!
+Current Index = 4 of 12 medias
+Trying to like media: 1473336479303441534
+Liked: 1473336479303441534. Likes: #178.
+Current Index = 5 of 11 medias
+Trying to like media: 1472136345358172139
+Liked: 1472136345358172139. Likes: #190.
+Current Index = 5 of 10 medias
+Trying to like media: 1471628708971456968
+Liked: 1471628708971456968. Likes: #167.
+Trying to unfollow: wahyudiyoung
+Unfollow: wahyudiyoung #7.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 15:45
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 15:45
+Checking user info..
+Follower : 2462
+Following : 1437
+Media : 470
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is following you
+   >>>You are following this account
+======> Get media id by user: inilelaaa <======
+Get media by user success!
+@@@@@@@@@@@@@@ This is your follower B****h!!! @@@@@@@@@@@@@
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 15:45
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 15:45
+Checking user info..
+Follower : 229
+Following : 217
+Media : 81
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: barmond44 <======
+Get media by user success!
+Current Index = 5 of 12 medias
+Trying to like media: 1473917059905542453
+Liked: 1473917059905542453. Likes: #51.
+Current Index = 7 of 11 medias
+Trying to like media: 1463357390472428526
+Liked: 1463357390472428526. Likes: #59.
+Current Index = 5 of 10 medias
+Trying to like media: 1469640131933395903
+Liked: 1469640131933395903. Likes: #64.
+Current Index = 8 of 9 medias
+Trying to like media: 1455067189618863295
+Liked: 1455067189618863295. Likes: #44.
+Trying to unfollow: barmond44
+Unfollow: barmond44 #8.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 15:50
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 15:50
+Checking user info..
+Follower : 209
+Following : 211
+Media : 1418
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: 1020_chunichi_dragons <======
+Get media by user success!
+Current Index = 2 of 12 medias
+Trying to like media: 1484894691731270205
+Liked: 1484894691731270205. Likes: #2.
+Current Index = 10 of 11 medias
+Trying to like media: 1483376674094581000
+Liked: 1483376674094581000. Likes: #58.
+Current Index = 8 of 10 medias
+Trying to like media: 1483896790808816206
+Liked: 1483896790808816206. Likes: #67.
+Current Index = 2 of 9 medias
+Trying to like media: 1484889171960067535
+Liked: 1484889171960067535. Likes: #9.
+Trying to unfollow: 1020_chunichi_dragons
+Unfollow: 1020_chunichi_dragons #9.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 15:54
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 15:54
+Checking user info..
+Follower : 5743
+Following : 420
+Media : 1101
+   >>>This is probably Selebgram account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: tuk_wak_2nd <======
+XXXXXXX Except on get_media! XXXXXXX
+ragil.creative : Get user info 
+03.04.2017 15:55
+Checking user info..
+Follower : 5743
+Following : 420
+Media : 1101
+   >>>This is probably Selebgram account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: tuk_wak_2nd <======
+XXXXXXX Except on get_media! XXXXXXX
+ragil.creative : Get user info 
+03.04.2017 15:56
+Checking user info..
+Follower : 5743
+Following : 420
+Media : 1101
+   >>>This is probably Selebgram account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: tuk_wak_2nd <======
+XXXXXXX Except on get_media! XXXXXXX
+ragil.creative : Get user info 
+03.04.2017 15:56
+Checking user info..
+Follower : 5743
+Following : 420
+Media : 1101
+   >>>This is probably Selebgram account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: tuk_wak_2nd <======
+XXXXXXX Except on get_media! XXXXXXX
+Trying to unfollow: tuk_wak_2nd
+Unfollow: tuk_wak_2nd #10.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 15:58
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 15:59
+Checking user info..
+Follower : 3460
+Following : 335
+Media : 410
+   >>>This is probably Selebgram account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: theobsoletepoet <======
+XXXXXXX Except on get_media! XXXXXXX
+ragil.creative : Get user info 
+03.04.2017 15:59
+Checking user info..
+Follower : 3460
+Following : 335
+Media : 410
+   >>>This is probably Selebgram account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: theobsoletepoet <======
+XXXXXXX Except on get_media! XXXXXXX
+Trying to unfollow: theobsoletepoet
+Unfollow: theobsoletepoet #11.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 16:01
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 16:01
+Checking user info..
+Follower : 311
+Following : 304
+Media : 1038
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: atika_dewielf <======
+Get media by user success!
+Current Index = 11 of 12 medias
+Trying to like media: 1427466256776494348
+Liked: 1427466256776494348. Likes: #36.
+Current Index = 6 of 11 medias
+Trying to like media: 1472837048795872118
+Liked: 1472837048795872118. Likes: #53.
+Current Index = 4 of 10 medias
+Trying to like media: 1473104443988983843
+Liked: 1473104443988983843. Likes: #57.
+Current Index = 0 of 9 medias
+Trying to like media: 1484910623300129288
+Liked: 1484910623300129288. Likes: #2.
+Trying to unfollow: atika_dewielf
+Unfollow: atika_dewielf #12.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 16:06
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 16:06
+Checking user info..
+Follower : 1827
+Following : 742
+Media : 428
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is following you
+   >>>You are following this account
+======> Get media id by user: yoga.budiman <======
+Get media by user success!
+@@@@@@@@@@@@@@ This is your follower B****h!!! @@@@@@@@@@@@@
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 16:06
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 16:06
+Checking user info..
+Follower : 710
+Following : 259
+Media : 2800
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: vh_sj <======
+Get media by user success!
+Current Index = 9 of 12 medias
+Trying to like media: 1481943812137700206
+Liked: 1481943812137700206. Likes: #18.
+Current Index = 9 of 11 medias
+Trying to like media: 1481889042849046048
+Liked: 1481889042849046048. Likes: #31.
+Current Index = 7 of 10 medias
+Trying to like media: 1482682949534927937
+Liked: 1482682949534927937. Likes: #31.
+Trying to unfollow: vh_sj
+Unfollow: vh_sj #13.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 16:10
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 16:10
+Checking user info..
+Follower : 482
+Following : 729
+Media : 345
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is following you
+   >>>You are following this account
+======> Get media id by user: d.eesnnawaty19 <======
+Get media by user success!
+@@@@@@@@@@@@@@ This is your follower B****h!!! @@@@@@@@@@@@@
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 16:10
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 16:11
+Checking user info..
+Follower : 482
+Following : 729
+Media : 345
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is following you
+   >>>You are following this account
+======> Get media id by user: d.eesnnawaty19 <======
+Get media by user success!
+@@@@@@@@@@@@@@ This is your follower B****h!!! @@@@@@@@@@@@@
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 16:11
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 16:11
+Checking user info..
+Follower : 186
+Following : 76
+Media : 410
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: diana080786 <======
+Get media by user success!
+Current Index = 8 of 12 medias
+Trying to like media: 1478359927696161107
+Liked: 1478359927696161107. Likes: #109.
+Current Index = 5 of 11 medias
+Trying to like media: 1483656099205994278
+Liked: 1483656099205994278. Likes: #47.
+Current Index = 2 of 10 medias
+Trying to like media: 1484127883680093589
+Liked: 1484127883680093589. Likes: #45.
+Current Index = 8 of 9 medias
+Trying to like media: 1474738298185533141
+Liked: 1474738298185533141. Likes: #58.
+Trying to unfollow: diana080786
+Unfollow: diana080786 #14.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 16:25
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 16:25
+Checking user info..
+Follower : 789
+Following : 465
+Media : 309
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: diahdiadiah <======
+Get media by user success!
+Current Index = 2 of 12 medias
+Trying to like media: 1439241116440818546
+Liked: 1439241116440818546. Likes: #64.
+Current Index = 10 of 11 medias
+Trying to like media: 1399213635897512940
+Liked: 1399213635897512940. Likes: #34.
+Trying to unfollow: diahdiadiah
+Unfollow: diahdiadiah #15.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 16:28
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 16:29
+Checking user info..
+Follower : 103
+Following : 288
+Media : 120
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is following you
+   >>>You are following this account
+======> Get media id by user: tommypradito <======
+Get media by user success!
+@@@@@@@@@@@@@@ This is your follower B****h!!! @@@@@@@@@@@@@
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 16:29
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 16:29
+Checking user info..
+Follower : 9686
+Following : 7372
+Media : 15166
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: suju_pinkrose92 <======
+Get media by user success!
+Current Index = 6 of 12 medias
+Trying to like media: 1484572632241219680
+Liked: 1484572632241219680. Likes: #75.
+Current Index = 10 of 11 medias
+Trying to like media: 1484226832990887392
+Liked: 1484226832990887392. Likes: #88.
+Trying to unfollow: suju_pinkrose92
+Unfollow: suju_pinkrose92 #16.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 17:02
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 17:02
+Checking user info..
+Follower : 69
+Following : 169
+Media : 26
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: ecoubay888 <======
+Get media by user success!
+Current Index = 3 of 12 medias
+Trying to like media: 1482925263427542079
+Liked: 1482925263427542079. Likes: #12.
+Current Index = 5 of 11 medias
+Trying to like media: 1481214743754339215
+Liked: 1481214743754339215. Likes: #11.
+Current Index = 3 of 10 medias
+Trying to like media: 1482057186179626955
+Liked: 1482057186179626955. Likes: #9.
+Current Index = 0 of 9 medias
+Trying to like media: 1484838293736438015
+Liked: 1484838293736438015. Likes: #10.
+Trying to unfollow: ecoubay888
+Unfollow: ecoubay888 #17.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 17:06
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 17:07
+Checking user info..
+Follower : 112
+Following : 106
+Media : 179
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: rachma_hakim <======
+Get media by user success!
+Current Index = 5 of 12 medias
+Trying to like media: 1478786670731913061
+Liked: 1478786670731913061. Likes: #8.
+Current Index = 2 of 11 medias
+Trying to like media: 1482719565095768481
+Liked: 1482719565095768481. Likes: #11.
+Current Index = 4 of 10 medias
+Trying to like media: 1478239416115568419
+Liked: 1478239416115568419. Likes: #9.
+Trying to unfollow: rachma_hakim
+Unfollow: rachma_hakim #18.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 17:10
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 17:10
+Checking user info..
+Follower : 2249
+Following : 212
+Media : 687
+   >>>This is probably Selebgram account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: lady.in.europe <======
+XXXXXXX Except on get_media! XXXXXXX
+ragil.creative : Get user info 
+03.04.2017 17:11
+Checking user info..
+Follower : 2249
+Following : 212
+Media : 687
+   >>>This is probably Selebgram account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: lady.in.europe <======
+XXXXXXX Except on get_media! XXXXXXX
+ragil.creative : Get user info 
+03.04.2017 17:12
+Checking user info..
+Follower : 2249
+Following : 212
+Media : 687
+   >>>This is probably Selebgram account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: lady.in.europe <======
+XXXXXXX Except on get_media! XXXXXXX
+ragil.creative : Get user info 
+03.04.2017 17:12
+Checking user info..
+Follower : 2249
+Following : 212
+Media : 687
+   >>>This is probably Selebgram account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: lady.in.europe <======
+XXXXXXX Except on get_media! XXXXXXX
+Trying to unfollow: lady.in.europe
+Unfollow: lady.in.europe #19.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 17:15
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 17:15
+Checking user info..
+Follower : 1258
+Following : 668
+Media : 209
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: yanita.wijaya <======
+Get media by user success!
+Current Index = 3 of 12 medias
+Trying to like media: 1483775072653384045
+Liked: 1483775072653384045. Likes: #16.
+Current Index = 6 of 11 medias
+Trying to like media: 1480218710019260854
+Liked: 1480218710019260854. Likes: #15.
+Trying to unfollow: yanita.wijaya
+Unfollow: yanita.wijaya #20.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 17:18
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 17:18
+Checking user info..
+Follower : 992
+Following : 854
+Media : 528
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: om_andiborneo <======
+Get media by user success!
+Current Index = 5 of 12 medias
+Trying to like media: 1483379744871184364
+Liked: 1483379744871184364. Likes: #37.
+Current Index = 1 of 11 medias
+Trying to like media: 1484881263046989635
+Liked: 1484881263046989635. Likes: #9.
+Current Index = 0 of 10 medias
+Trying to like media: 1484910451368044340
+Liked: 1484910451368044340. Likes: #7.
+Current Index = 0 of 9 medias
+Trying to like media: 1484140382144737288
+Liked: 1484140382144737288. Likes: #32.
+Trying to unfollow: om_andiborneo
+Unfollow: om_andiborneo #21.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 17:52
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 17:52
+Checking user info..
+Follower : 232
+Following : 471
+Media : 214
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: dybariussi <======
+Get media by user success!
+Current Index = 3 of 12 medias
+Trying to like media: 1484195013289218658
+Liked: 1484195013289218658. Likes: #25.
+Current Index = 5 of 11 medias
+Trying to like media: 1480832355986837205
+Liked: 1480832355986837205. Likes: #20.
+Current Index = 1 of 10 medias
+Trying to like media: 1484475234806527215
+Liked: 1484475234806527215. Likes: #17.
+Trying to unfollow: dybariussi
+Unfollow: dybariussi #22.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 17:56
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 17:56
+Checking user info..
+Follower : 166
+Following : 77
+Media : 133
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id by user: mami_eh44 <======
+Get media by user success!
+Current Index = 9 of 12 medias
+Trying to like media: 1468655733062989122
+Liked: 1468655733062989122. Likes: #92.
+Current Index = 7 of 11 medias
+Trying to like media: 1477978138927289230
+Liked: 1477978138927289230. Likes: #62.
+Current Index = 6 of 10 medias
+Trying to like media: 1478107807169263912
+Liked: 1478107807169263912. Likes: #48.
+Current Index = 6 of 9 medias
+Trying to like media: 1473599930752819682
+Liked: 1473599930752819682. Likes: #90.
+Trying to unfollow: mami_eh44
+Unfollow: mami_eh44 #23.
+ragil.creative : Get media id on recent feed 
+ 03.04.2017 19:00
+Media in recent feed = 24
+ragil.creative : Get user info 
+03.04.2017 19:00
+Checking user info..
+Follower : 341
+Following : 154
+Media : 67
+   >>>This is a normal account
+   >>>This user is active
+   >>>This account is NOT following you
+   >>>You are following this account
+======> Get media id

@@ -83,10 +83,10 @@ class InstaBot:
     is_self_checking = False
     is_by_tag = False
     is_follower_number = 0
-
+    is_private = False
     self_following = 0
     self_follower = 0
-
+    like_ratio = 0
 
     # Log setting.
     log_file_path = ''
@@ -97,14 +97,16 @@ class InstaBot:
     media_by_tag = 0
     media_on_feed = []
     media_by_user = []
+    old_following_list = []
     login_status = False
+    
 
     # For new_auto_mod
     next_iteration = {"Like": 0, "Follow": 0, "Unfollow": 0, "Comments": 0}
 
     def __init__(self, login, password,
                  like_per_day=1000,
-                 media_max_like=50,
+                 media_max_like=1500,
                  media_min_like=0,
                  follow_per_day=0,
                  follow_time=5 * 60 * 60,
@@ -176,6 +178,7 @@ class InstaBot:
         self.media_by_tag = []
         self.media_on_feed = []
         self.media_by_user = []
+        self.old_following_list = []
         self.unwanted_username_list = unwanted_username_list
         now_time = datetime.datetime.now()
         log_string = 'Instabot v1.0.1 started at %s:\n' % \
@@ -567,7 +570,8 @@ class InstaBot:
                                                           self.add_time(self.unfollow_delay)
 
             if (self.bot_mode == 1) :
-                unfollow_protocol(self)
+                if time.time() > (self.follow_time):
+                    unfollow_protocol(self)
 
     def new_auto_mod_comments(self):
         if time.time() > self.next_iteration["Comments"] and self.comments_per_day != 0 \

@@ -22,7 +22,8 @@ def get_user_id_post_page (self, code):
             all_data = json.loads(json_str)
 
             self.user_list = list(all_data['entry_data']['PostPage'][0]\
-                                            ['media']['likes']['nodes'])
+                                            ['graphql']['shortcode_media']['edge_media_preview_like']['edges'])
+            #print self.user_list
             log_string="User likes this post = %i"%(self.media_by_user[self.current_index]['likes']['count'])
             self.write_log(log_string)
         except:

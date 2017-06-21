@@ -44,18 +44,27 @@ def get_user_info (self, username):
                 followed_by_viewer = user_info[0]['user']['followed_by_viewer']
                 requested_by_viewer = user_info[0]['user']['requested_by_viewer']
                 has_requested_viewer = user_info[0]['user']['has_requested_viewer']
+                self.is_private = user_info[0]['user']['is_private']
                 log_string = "Follower : %i" % (follower)
                 self.write_log(log_string)
                 log_string = "Following : %s" % (follows)
                 self.write_log(log_string)
                 log_string = "Media : %i" % (media)
                 self.write_log(log_string)
+                if follower>1000:
+                    self.like_ratio = follower * 4 / 100.
+                else:         
+                    self.like_ratio = 100
 
-                if follower/follows > 2:
+                if self.is_private == True:
+                    print('   >>>This account is Private')
+                else :
+                    print('   >>>This account is Public')
+                if (follower > 1000) and (follower/follows > 3):
                     self.is_selebgram = True
                     self.is_fake_account = False
                     print('   >>>This is probably Selebgram account')
-                elif follows/follower > 2:
+                elif (follows > 1000) and follows/follower > 3:
                     self.is_fake_account = True
                     self.is_selebgram = False
                     print('   >>>This is probably Fake account')
@@ -64,12 +73,20 @@ def get_user_info (self, username):
                     self.is_fake_account = False
                     print('   >>>This is a normal account')
                             
-                if follows/media < 10 and follower/media < 10:
+                if media > follows or media > follower :
                     self.is_active_user = True
                     print('   >>>This user is active')
+                elif follows > 1000 or follower > 1000 :
+                    if follows/media > 4 or follower/media > 4:
+                        self.is_active_user = True
+                        print('   >>>This user is active')
                 else:
-                    self.is_active_user = False
-                    print('   >>>This user is passive')
+                    if media > 12 :
+                        self.is_active_user = True
+                        print('   >>>This user is active')
+                    else :
+                        self.is_active_user = False
+                        print('   >>>This user is passive')
                             
                 if follow_viewer or has_requested_viewer:
                     self.is_follower = True
@@ -85,6 +102,7 @@ def get_user_info (self, username):
                     self.is_following = False
                     print('   >>>You are NOT following this account')
                     self.is_checked = True
+    
             except:
                 self.media_on_feed = []
                 self.write_log("Except on get_info!")

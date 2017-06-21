@@ -11,7 +11,7 @@ def get_media_id_user_feed (self):
             log_string = "======> Get media id by user: %s <======" % (self.current_user)
             if self.is_checked != True :
                 get_user_info(self, self.current_user)
-            if self.is_fake_account!=True and self.is_active_user!=False and self.is_selebgram!=True or self.is_by_tag !=False:
+            if self.is_fake_account!=True and self.is_active_user!=False  or self.is_by_tag !=False:
                 url = 'https://www.instagram.com/%s%s' % (self.current_user, '/')
         else :
             log_string = "======> Get media id by Tag <======"
@@ -41,11 +41,11 @@ def get_media_id_user_feed (self):
                     self.media_by_user = list(all_data['entry_data']['TagPage'][0]\
                                             ['tag']['media']['nodes'])
                 log_string="Get media by user success!"
-                self.write_log(log_string)
+                self.write_log(log_string) 
+                time.sleep(10)
             except:
                 self.media_by_user = []
                 self.write_log("XXXXXXX Except on get_media! XXXXXXX")
-                time.sleep(60)
                 return 0
         else:
             log_string = "Reject this account \n=================== \nReason : \n   Is Selebgram : %s \n   Is Fake Account : %s \n   Is Active User : %s \n" % (self.is_selebgram, self.is_fake_account, self.is_active_user)

@@ -7,16 +7,17 @@ import random
 import time
 
 def likers_graber_protocol(self):
-    limit = random.randint(1,3)
+    limit = 1
     counterx = 0
     self.is_checked = False
     self.is_rejected = False
-    while counterx<=limit:
+    while counterx<limit:
         # ------------------- Get media_id -------------------
         if len(self.media_by_user) == 0:
             self.is_checked = False
             self.is_rejected = False
             get_media_id_user_feed(self)
+            limit = len(self.media_by_user)-1
         # ------------------- Like -------------------
         if self.is_rejected is not False :
             self.is_checked = False
