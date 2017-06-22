@@ -10,7 +10,7 @@ from src.text_handler import read
 import time
 import random
 
-bot = InstaBot(login="username", password="password",
+bot = InstaBot(login="", password="",
                like_per_day=0,
                comments_per_day=0,
                tag_list=['writer','author','penulis','penulisindonesia','publisher','sastra',

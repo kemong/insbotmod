@@ -19,7 +19,7 @@ def user_feed_protocol(self):
             if self.is_rejected is not False :
                 return False
             else :
-                limit = random.randint(len(self.media_by_user)/3,len(self.media_by_user)-1)
+                limit = random.randint(len(self.media_by_user)/2,len(self.media_by_user)-1)
 
         if self.is_follower is not False :
             print("@@@@@@@@@@@@@@ This is your follower B****h!!! @@@@@@@@@@@@@")
@@ -29,7 +29,7 @@ def user_feed_protocol(self):
         print limit
         new_auto_mod_like2(self)
         counterz += 1
-        time.sleep(limit*random.randint(3,6))
+        time.sleep(limit*random.randint(1,4)*30*60)
     if limit < 7 :
         return True
     return False
